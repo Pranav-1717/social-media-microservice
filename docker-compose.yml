@@ -11,7 +11,7 @@ services:
       - rabbitmq
     environment:
       - REDIS_URL=redis://redis:6379
-      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - RABBIT_URL=amqp://rabbitmq:5672
 
   identity-service:
     build: ./identity-service
@@ -21,7 +21,7 @@ services:
       - rabbitmq
     environment:
       - REDIS_URL=redis://redis:6379
-      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - RABBIT_URL=amqp://rabbitmq:5672
 
   post-service:
     build: ./post-service
@@ -31,7 +31,7 @@ services:
       - rabbitmq
     environment:
       - REDIS_URL=redis://redis:6379
-      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - RABBIT_URL=amqp://rabbitmq:5672
 
   media-service:
     build: ./media-service
@@ -41,7 +41,7 @@ services:
       - rabbitmq
     environment:
       - REDIS_URL=redis://redis:6379
-      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - RABBIT_URL=amqp://rabbitmq:5672
 
 
   redis:
