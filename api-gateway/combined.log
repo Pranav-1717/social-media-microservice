@@ -1,0 +1,386 @@
+{"level":"info","message":"Received POST request to /api/post/create-post","service":"post_service","timestamp":"2025-04-05T10:04:28.501Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T10:04:28.504Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:05:28.214Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T10:05:28.215Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"post_service","timestamp":"2025-04-05T10:10:17.949Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-05T10:10:17.950Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"post_service","timestamp":"2025-04-05T10:11:09.367Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-05T10:11:09.367Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-05T10:13:44.159Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-05T10:13:44.159Z"}
+{"level":"info","message":"Response received from Identity service: 404","service":"post_service","timestamp":"2025-04-05T10:13:44.200Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-05T10:14:55.993Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-05T10:14:55.996Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-05T10:14:56.242Z"}
+{"level":"error","message":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:169:10)\n    at parse (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\raw-body\\index.js:238:16)\n    at done (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)","service":"post_service","timestamp":"2025-04-05T10:42:39.880Z"}
+{"level":"error","message":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:169:10)\n    at parse (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\raw-body\\index.js:238:16)\n    at done (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (E:\\SOCIAL-MEDIA-MICROSERVICE\\api-gateway\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)","service":"post_service","timestamp":"2025-04-05T10:42:46.991Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:43:50.046Z"}
+{"level":"info","message":"Request body: {\"content\":\"hi\"}","service":"post_service","timestamp":"2025-04-05T10:43:50.047Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:44:09.531Z"}
+{"level":"info","message":"Request body: {\"content\":\"hi\"}","service":"post_service","timestamp":"2025-04-05T10:44:09.531Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"post_service","timestamp":"2025-04-05T10:45:37.258Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"post_service","timestamp":"2025-04-05T10:45:37.261Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:45:50.723Z"}
+{"level":"info","message":"Request body: {\"content\":\"hi\"}","service":"post_service","timestamp":"2025-04-05T10:45:50.723Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"post_service","timestamp":"2025-04-05T10:46:42.661Z"}
+{"level":"info","message":"Received POST request to /apiposts/create-post","service":"post_service","timestamp":"2025-04-05T10:47:33.260Z"}
+{"level":"info","message":"Request body: {\"content\":\"hi\"}","service":"post_service","timestamp":"2025-04-05T10:47:33.260Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:47:41.568Z"}
+{"level":"info","message":"Request body: {\"content\":\"hi\"}","service":"post_service","timestamp":"2025-04-05T10:47:41.568Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-05T10:50:33.672Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-05T10:50:33.672Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-05T10:50:33.887Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-05T10:51:35.476Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-05T10:51:35.476Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-05T10:51:35.666Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:52:03.685Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T10:52:03.686Z"}
+{"level":"info","message":"Response received from Post service: 401","service":"post_service","timestamp":"2025-04-05T10:52:03.706Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:57:01.906Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T10:57:01.909Z"}
+{"level":"info","message":"Response received from Post service: 401","service":"post_service","timestamp":"2025-04-05T10:57:01.921Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T10:57:03.470Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T10:57:03.471Z"}
+{"level":"info","message":"Response received from Post service: 401","service":"post_service","timestamp":"2025-04-05T10:57:03.476Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T11:00:59.426Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T11:00:59.429Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"post_service","timestamp":"2025-04-05T11:00:59.442Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T11:02:30.746Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T11:02:30.749Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"post_service","timestamp":"2025-04-05T11:02:30.780Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T11:04:21.078Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-05T11:04:21.078Z"}
+{"level":"info","message":"Response received from Post service: 400","service":"post_service","timestamp":"2025-04-05T11:04:21.104Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-05T11:04:42.972Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi First content\"}","service":"post_service","timestamp":"2025-04-05T11:04:42.972Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-05T11:04:43.053Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-06T10:19:31.541Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-06T10:19:31.544Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-06T10:19:31.814Z"}
+{"level":"info","message":"Received POST request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:19:50.628Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:19:50.629Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"post_service","timestamp":"2025-04-06T10:19:50.658Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:21:08.421Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:21:08.422Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"post_service","timestamp":"2025-04-06T10:21:08.429Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:23:48.091Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:23:48.091Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"post_service","timestamp":"2025-04-06T10:23:48.642Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:24:15.032Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:24:15.033Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"post_service","timestamp":"2025-04-06T10:24:29.629Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:24:31.477Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:24:31.478Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"post_service","timestamp":"2025-04-06T10:24:31.487Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:06.357Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:06.357Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:06.378Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:26.421Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:26.422Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:26.429Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:28.556Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:28.556Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:28.562Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:31.240Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:31.240Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:31.246Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:36.765Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:36.765Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:36.772Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:38.115Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:38.116Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:38.120Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:39.727Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:39.727Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:39.734Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T10:26:40.707Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:26:40.707Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:26:40.712Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f10e4a338a5525a4cad43b","service":"post_service","timestamp":"2025-04-06T10:53:31.200Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:53:31.201Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"post_service","timestamp":"2025-04-06T10:53:31.201Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f10e4a338a5525a4cad43b","service":"post_service","timestamp":"2025-04-06T10:53:54.102Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:53:54.103Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:53:54.183Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f10e4a338a5525a4cad43b","service":"post_service","timestamp":"2025-04-06T10:58:04.404Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:58:04.404Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:58:04.425Z"}
+{"level":"info","message":"Received GET request to /v1/posts/delete/67f10e4a338a5525a4cad43b","service":"post_service","timestamp":"2025-04-06T10:58:36.453Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:58:36.454Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"post_service","timestamp":"2025-04-06T10:58:36.474Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67f10e4a338a5525a4cad43b","service":"post_service","timestamp":"2025-04-06T10:59:45.655Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T10:59:45.655Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T10:59:46.606Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-06T11:08:21.896Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi second content\"}","service":"post_service","timestamp":"2025-04-06T11:08:21.896Z"}
+{"level":"warn","message":"Invalid token!","service":"post_service","timestamp":"2025-04-06T11:08:21.897Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-06T11:08:36.579Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi second content\"}","service":"post_service","timestamp":"2025-04-06T11:08:36.579Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-06T11:08:36.689Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-06T11:08:45.247Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi third content\"}","service":"post_service","timestamp":"2025-04-06T11:08:45.248Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-06T11:08:45.311Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-06T11:08:50.587Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi fourth content\"}","service":"post_service","timestamp":"2025-04-06T11:08:50.587Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-06T11:08:50.646Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-06T11:08:55.346Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi fifth content\"}","service":"post_service","timestamp":"2025-04-06T11:08:55.346Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-06T11:08:55.406Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:09:01.635Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:09:01.635Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"post_service","timestamp":"2025-04-06T11:09:33.828Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:09:44.411Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:09:44.411Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:09:44.415Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:09:58.474Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:09:58.475Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:09:58.479Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f260c2672248b5aaebc6ea","service":"post_service","timestamp":"2025-04-06T11:10:20.061Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:10:20.062Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:10:20.121Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67f260c2672248b5aaebc6ea","service":"post_service","timestamp":"2025-04-06T11:10:28.398Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:10:28.399Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:10:28.543Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f260c2672248b5aaebc6ea","service":"post_service","timestamp":"2025-04-06T11:10:33.589Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:10:33.590Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"post_service","timestamp":"2025-04-06T11:10:33.661Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:10:38.332Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:10:38.332Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:10:38.337Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:10:46.331Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:10:46.332Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:10:46.337Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:12:53.406Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:12:53.406Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:12:53.426Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67f260c2672248b5aaebc6ea","service":"post_service","timestamp":"2025-04-06T11:14:02.301Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:14:02.301Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"post_service","timestamp":"2025-04-06T11:14:02.374Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:14:06.896Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:14:06.896Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"post_service","timestamp":"2025-04-06T11:16:18.555Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:16:40.703Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:16:40.703Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:16:40.725Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67f260b4672248b5aaebc6e6","service":"post_service","timestamp":"2025-04-06T11:17:08.894Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:17:08.894Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:17:09.032Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:17:14.820Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:17:14.821Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:17:14.827Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:19:46.232Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:19:46.232Z"}
+{"level":"warn","message":"Invalid token!","service":"post_service","timestamp":"2025-04-06T11:19:46.233Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-06T11:19:54.729Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-06T11:19:54.730Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-06T11:19:54.917Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:20:09.511Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:20:09.511Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"post_service","timestamp":"2025-04-06T11:21:48.039Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-06T11:24:53.461Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-06T11:24:53.461Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-06T11:24:53.484Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:47:13.194Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:47:13.197Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"post_service","timestamp":"2025-04-09T11:47:13.197Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-09T11:48:11.419Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-09T11:48:11.419Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-09T11:48:11.624Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:48:25.582Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:48:25.583Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"post_service","timestamp":"2025-04-09T11:48:25.586Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:48:56.472Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:48:56.472Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"post_service","timestamp":"2025-04-09T11:48:56.474Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:49:36.228Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:49:36.229Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"post_service","timestamp":"2025-04-09T11:49:36.230Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:51:51.436Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:51:51.462Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"post_service","timestamp":"2025-04-09T11:51:51.466Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:53:23.091Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:53:23.095Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T11:53:23.116Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:54:02.887Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:54:02.888Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T11:54:02.903Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:58:32.389Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:58:32.389Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T11:58:32.399Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T11:59:48.988Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T11:59:48.988Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T11:59:49.011Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:03:00.136Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:03:00.136Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:03:00.145Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:05:01.971Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:05:01.972Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:05:01.979Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:13:26.968Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:13:26.968Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:13:26.990Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:18:50.166Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:18:50.167Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:18:50.176Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:20:14.974Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:20:14.975Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:20:14.983Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:41:23.443Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:41:23.443Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:41:23.452Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:42:48.754Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:42:48.758Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:42:48.790Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:44:15.150Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:44:15.150Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:44:15.161Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:48:22.352Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:48:22.352Z"}
+{"level":"warn","message":"Invalid token!","service":"post_service","timestamp":"2025-04-09T12:48:22.354Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-09T12:48:29.764Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-09T12:48:29.764Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-09T12:48:30.322Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:48:44.336Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:48:44.336Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:48:44.347Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:55:50.074Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:55:50.074Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:55:50.084Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T12:56:35.843Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T12:56:35.844Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T12:56:35.872Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T13:01:39.742Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T13:01:39.743Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T13:01:39.752Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T13:02:56.750Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T13:02:56.751Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T13:02:56.762Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T13:03:16.484Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T13:03:16.486Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T13:03:16.528Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T13:05:36.773Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T13:05:36.774Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T13:05:36.798Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T13:10:52.765Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T13:10:52.765Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T13:10:52.789Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T13:11:40.403Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T13:11:40.403Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T13:11:40.415Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-09T13:13:03.968Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-09T13:13:03.969Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-09T13:13:03.993Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-10T06:33:05.326Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-10T06:33:05.331Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-10T06:33:05.560Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-10T06:37:33.222Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-10T06:37:33.223Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-10T06:37:33.248Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-10T06:40:54.552Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-10T06:40:54.552Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-10T06:40:54.577Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-10T06:43:06.518Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-10T06:43:06.519Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-10T06:43:06.542Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-10T06:43:33.592Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-10T06:43:33.592Z"}
+{"level":"info","message":"Response received from Media service: 500","service":"post_service","timestamp":"2025-04-10T06:43:36.763Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-10T06:54:19.910Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-10T06:54:19.910Z"}
+{"level":"info","message":"Response received from Media service: 201","service":"post_service","timestamp":"2025-04-10T06:54:22.377Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"post_service","timestamp":"2025-04-14T04:41:56.838Z"}
+{"level":"info","message":"Request body: {\"email\":\"user2@gmail.com\",\"password\":\"user2@123\"}","service":"post_service","timestamp":"2025-04-14T04:41:56.842Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"post_service","timestamp":"2025-04-14T04:41:57.062Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T04:42:14.276Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T04:42:14.276Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"post_service","timestamp":"2025-04-14T04:42:38.706Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T04:42:40.583Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T04:42:40.584Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T04:42:40.596Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-14T04:43:16.154Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T04:43:16.155Z"}
+{"level":"info","message":"Response received from Media service: 201","service":"post_service","timestamp":"2025-04-14T04:43:19.105Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-14T04:43:54.498Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi sixth content\",\"mediaId\":\"67fc92678d9c0708de72ff30\"}","service":"post_service","timestamp":"2025-04-14T04:43:54.498Z"}
+{"level":"info","message":"Response received from Post service: 400","service":"post_service","timestamp":"2025-04-14T04:43:54.513Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-14T04:44:47.682Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi sixth content\",\"mediaIds\":\"67fc92678d9c0708de72ff30\"}","service":"post_service","timestamp":"2025-04-14T04:44:47.683Z"}
+{"level":"info","message":"Response received from Post service: 400","service":"post_service","timestamp":"2025-04-14T04:44:47.693Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-14T04:45:00.260Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi sixth content\",\"mediaIds\":[\"67fc92678d9c0708de72ff30\"]}","service":"post_service","timestamp":"2025-04-14T04:45:00.260Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"post_service","timestamp":"2025-04-14T04:45:00.326Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-14T04:48:21.769Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi sixth content\",\"mediaIds\":[\"67fc92678d9c0708de72ff30\"]}","service":"post_service","timestamp":"2025-04-14T04:48:21.770Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-14T04:48:21.847Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T04:50:37.606Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T04:50:37.606Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"post_service","timestamp":"2025-04-14T04:50:38.392Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T04:51:02.175Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T04:51:02.175Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T04:51:02.199Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67fc92ccff9efe9869a71ede","service":"post_service","timestamp":"2025-04-14T04:51:52.077Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T04:51:52.077Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T04:51:52.174Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T04:53:35.734Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T04:53:35.735Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"post_service","timestamp":"2025-04-14T04:53:35.737Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:03:27.450Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:03:27.450Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"post_service","timestamp":"2025-04-14T05:03:27.452Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:04:02.704Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:04:02.704Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"post_service","timestamp":"2025-04-14T05:04:47.707Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:05:13.405Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:05:13.406Z"}
+{"level":"info","message":"Response received from Media service: 200","service":"post_service","timestamp":"2025-04-14T05:05:13.454Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T05:05:33.096Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:05:33.096Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:05:33.216Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67fc93952aa8605db4d5d48b","service":"post_service","timestamp":"2025-04-14T05:05:57.251Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:05:57.252Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:05:57.582Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:06:03.087Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:06:03.088Z"}
+{"level":"info","message":"Response received from Media service: 200","service":"post_service","timestamp":"2025-04-14T05:06:03.114Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T05:06:39.976Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:06:39.976Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:06:40.058Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-14T05:13:32.236Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:13:32.236Z"}
+{"level":"info","message":"Response received from Media service: 201","service":"post_service","timestamp":"2025-04-14T05:13:34.840Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-14T05:14:11.906Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi sixth content\",\"mediaIds\":[\"67fc997e8ee5abce1b751f55\"]}","service":"post_service","timestamp":"2025-04-14T05:14:11.906Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-14T05:14:11.963Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T05:14:26.416Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:14:26.416Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:14:26.494Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67fc99a3daaea4b14b05018c","service":"post_service","timestamp":"2025-04-14T05:14:45.094Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:14:45.094Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:14:45.178Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:14:54.815Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:14:54.815Z"}
+{"level":"info","message":"Response received from Media service: 200","service":"post_service","timestamp":"2025-04-14T05:14:54.842Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:26:11.282Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:26:11.283Z"}
+{"level":"info","message":"Response received from Media service: 200","service":"post_service","timestamp":"2025-04-14T05:26:11.329Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"post_service","timestamp":"2025-04-14T05:26:31.339Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:26:31.339Z"}
+{"level":"info","message":"Response received from Media service: 201","service":"post_service","timestamp":"2025-04-14T05:26:34.512Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"post_service","timestamp":"2025-04-14T05:26:59.122Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hi sixth content\",\"mediaIds\":[\"67fc9c8af803cb5ce4ceabd0\"]}","service":"post_service","timestamp":"2025-04-14T05:26:59.123Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"post_service","timestamp":"2025-04-14T05:26:59.163Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T05:27:09.791Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:27:09.792Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:27:09.854Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:27:19.024Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:27:19.024Z"}
+{"level":"info","message":"Response received from Media service: 200","service":"post_service","timestamp":"2025-04-14T05:27:19.058Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete/67fc9ca3daaea4b14b050192","service":"post_service","timestamp":"2025-04-14T05:27:25.920Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:27:25.920Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:27:25.996Z"}
+{"level":"info","message":"Received GET request to /v1/media/getAllMedia","service":"post_service","timestamp":"2025-04-14T05:27:29.526Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:27:29.527Z"}
+{"level":"info","message":"Response received from Media service: 200","service":"post_service","timestamp":"2025-04-14T05:27:29.557Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"post_service","timestamp":"2025-04-14T05:27:36.855Z"}
+{"level":"info","message":"Request body: {}","service":"post_service","timestamp":"2025-04-14T05:27:36.855Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"post_service","timestamp":"2025-04-14T05:27:36.918Z"}
